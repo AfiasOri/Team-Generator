@@ -27,8 +27,9 @@ const Home = () => {
 
 	const handleNumberOfPlayersChange = e => {
 		if (e.target.value <= 0) return;
-		if (e.target.value > numOfPlayers) setNumOfPlayers(cur => cur + 1);
-		else if (e.target.value < numOfPlayers) setNumOfPlayers(cur => cur - 1);
+		setNumOfPlayers(e.target.value);
+		// if (e.target.value > numOfPlayers) setNumOfPlayers(cur => cur + 1);
+		// else if (e.target.value < numOfPlayers) setNumOfPlayers(cur => cur - 1);
 	};
 
 	const handleSubmit = () => {
