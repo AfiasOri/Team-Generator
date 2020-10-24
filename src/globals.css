@@ -1,0 +1,10 @@
+body {
+	background: url('./assets/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box {
+	opacity: 0.8;
+	border: 2px solid white !important;
+}
